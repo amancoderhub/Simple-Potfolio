@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap");
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+  
+    background-color: rgb(55, 46, 75);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    background-color: rgba(32, 103, 97, 0.868);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+
+    color: rgb(164, 164, 206);
+    font-size: 1.02rem;
+}
+
+main hr {
+    border: 0;
+    background: rgb(165, 165, 186);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2.5rem;
+
+}
+
+.leftsection .btn {
+    padding: 9px;
+    background-color: rgb(95, 45, 156);
+    color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.leftsection .buttons {
+    padding: 23px;
+}
+
+.rightsection img {
+    width: 90%;
+    margin: 50px 0;
+
+}
+
+.purple {
+    color: rgb(146, 63, 223);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(96, 96, 226);
+}
+
+.secondsection {
+    max-width: 70vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: brown;
+    width: 150px;
+    font-size: 12px;
+}
+
+footer {
+    background-color: rgb(35, 35, 57);
+    height: 233px;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 123px;
+    justify-content: space-around;
+}
+
+footer .footer-rights {
+    text-align: center;
+    padding: 12px;
+    color: rgb(137, 137, 222);
+
+}
